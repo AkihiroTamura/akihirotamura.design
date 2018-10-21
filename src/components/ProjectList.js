@@ -6,7 +6,7 @@ const List = styled.ul`
   flex-flow: row wrap;
 `
 const Message = styled.span`
-  color: #999;
+  color: ${props => props.theme.colors.secondary};
   flex-flow: row wrap;
   display: inline-block;
   font-family: 'Helvetica Neue';

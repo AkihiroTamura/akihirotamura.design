@@ -33,13 +33,13 @@ const Container = styled.div`
     color: ${props => props.theme.colors.base};
     transition: all 0.2s;
     &:hover {
-      color: ${props => props.theme.colors.highlight};
+      color: ${props => props.theme.colors.secondary};
     }
   }
 `
 
 const Copy = styled.small`
-  color: #999;
+  color: ${props => props.theme.colors.secondary};
   font-size: .65em;
   letter-spacing: .1em;
 `

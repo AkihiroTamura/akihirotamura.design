@@ -14,7 +14,7 @@ const List = styled.ul`
 const Tag = styled.li`
   display: inline-block;
   font-size: .9em;
-  color: #999;
+  color: ${props => props.theme.colors.secondary};
   margin: 0 0.5em;
 `
 

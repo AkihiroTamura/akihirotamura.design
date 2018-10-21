@@ -46,7 +46,7 @@ const Title = styled(posed.span(slideUp))`
 `
 
 const Slash = styled.span`
-  color: #999;
+  color: ${props => props.theme.colors.secondary};
 `
 
 const PostLink = styled(Link)`

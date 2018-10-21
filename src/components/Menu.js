@@ -36,7 +36,7 @@ const Nav = styled.nav`
 
   a {
     text-decoration: none;
-    color: ${props => props.theme.colors.highlight};
+    color: ${props => props.theme.colors.secondary};
     font-weight: 400;
     transition: all 0.2s;
     &:hover {
@@ -45,13 +45,13 @@ const Nav = styled.nav`
   }
 
   .name {
-    color: #000;
+    color: ${props => props.theme.colors.base};
     font-size: 1.2em;
     font-weight: 400;
   }
 
   .job {
-    color: #999;
+    color: ${props => props.theme.colors.secondary};
     margin-top: 0.45em;
   }
 `

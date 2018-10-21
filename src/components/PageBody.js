@@ -32,7 +32,7 @@ const Body = styled.div`
   span {
     font-size: .95em;
     latter-spacing: .1em;
-    color: #999;
+    color: ${props => props.theme.colors.secondary};
   }
 
   p {
@@ -70,9 +70,8 @@ const Body = styled.div`
     dd {
       list-style: none;
       list-style-position: inside;
-      line-height: 1;
-      color: #000;
-      margin: 1.5em 0;
+      color: ${props => props.theme.colors.base};
+      margin: 0.5em 0 2em;
     }
   }
 
@@ -80,10 +79,8 @@ const Body = styled.div`
     dt {
       list-style: none;
       list-style-position: inside;
-      line-height: 1;
-      float: left;
-      color: #999;
-      width: 70px;
+      color: ${props => props.theme.colors.secondary};
+      width: 150px;
       }
     }
   }

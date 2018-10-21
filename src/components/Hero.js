@@ -31,7 +31,7 @@ const Title = styled.h1`
     font-size: 1.4em;
     margin: 1.5em 0 0.5em 0;
   }
-  color: #000;
+  color: ${props => props.theme.colors.base};
 `
 
 const Hero = props => (

@@ -1,7 +1,7 @@
 const theme = {
   colors: {
     base: '#000', // Black
-    secondary: '#e9e9e9', // Medium Gray
+    secondary: '#b2b2b2', // Medium Gray
     tertiary: '#f3f3f3', // Light Gray
     highlight: '#b2b2b2', // Light Blue
   },
