@@ -52,7 +52,6 @@ const Nav = styled.nav`
 
   .job {
     color: ${props => props.theme.colors.secondary};
-    margin-top: 0.45em;
   }
 `
 
@@ -67,7 +66,7 @@ const Menu = () => {
         <ul>
           <li>
             <Link to="/" style={activeLinkStyle}>
-              <span className="name">AKIHIRO TAMURA</span><p className="job">Ix Designer</p>
+              <p className="name">AKIHIRO TAMURA</p><span className="job">Ix Designer</span>
             </Link>
           </li>
           <li>
