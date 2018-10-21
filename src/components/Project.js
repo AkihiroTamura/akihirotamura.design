@@ -41,6 +41,7 @@ const Title = styled(posed.span(slideUp))`
   &:hover {
     @media screen and (min-width: ${props => props.theme.responsive.medium}) {
       color: #f8f8f8;
+      opacity: 0.9;
     }
   }
 `

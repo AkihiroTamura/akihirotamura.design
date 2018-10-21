@@ -70,12 +70,12 @@ const Menu = () => {
             </Link>
           </li>
           <li>
-            <Link to="/about/" activeStyle={activeLinkStyle}>
+            <Link to="/about/" activestyle={activeLinkStyle}>
               ABOUT
             </Link>
           </li>
           <li>
-            <a href="https://m.me/akihiro.tamura.75436" activeStyle={activeLinkStyle}>
+            <a href="https://m.me/akihiro.tamura.75436" activestyle={activeLinkStyle}>
               CONTACT
             </a>
           </li>
