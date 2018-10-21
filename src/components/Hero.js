@@ -29,7 +29,7 @@ const Title = styled.h1`
   margin: 2em 0 1em 0;
   @media screen and (max-width: ${props => props.theme.responsive.medium}) {
     font-size: 1.4em;
-    margin: 1.5em 0;
+    margin: 1.5em 0 0.5em 0;
   }
   color: #000;
 `

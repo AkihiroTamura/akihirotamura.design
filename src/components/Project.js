@@ -11,7 +11,7 @@ const Post = styled(posed.div(staggerChildren))`
   transition: background 0.2s;
 
   a {
-    color: ${props => props.theme.colors.highlight};
+    color: ${props => props.theme.colors.base};
     text-decoration: none;
   }
 `
@@ -46,7 +46,7 @@ const Title = styled(posed.span(slideUp))`
 `
 
 const Slash = styled.span`
-  color: #000;
+  color: #999;
 `
 
 const PostLink = styled(Link)`
