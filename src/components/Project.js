@@ -73,7 +73,7 @@ const PostLink = styled(Link)`
   }
 `
 
-const Card = ({ slug, heroImage, title, url, tags, body, ...props }) => {
+const Project = ({ slug, heroImage, title, url, tags, body, ...props }) => {
   return (
     <Post featured={props.featured}>
       <PostLink to={`/${slug}/`}>
@@ -86,4 +86,4 @@ const Card = ({ slug, heroImage, title, url, tags, body, ...props }) => {
   )
 }
 
-export default Card
+export default Project

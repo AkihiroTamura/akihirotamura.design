@@ -1,8 +1,8 @@
 import React from 'react'
 import { graphql } from 'gatsby'
 import Layout from '../components/Layout'
-import CardList from '../components/CardList'
-import Card from '../components/Card'
+import ProjectList from '../components/ProjectList'
+import Project from '../components/Project'
 import Helmet from 'react-helmet'
 import Container from '../components/Container'
 import Pagination from '../components/Pagination'
@@ -19,11 +19,11 @@ const Index = ({ data, pageContext }) => {
         <title>{`${config.siteTitle}`}</title>
       </Helmet>
       <Container>
-        <CardList>
+        <ProjectList>
           {posts.map(({ node: post }) => (
-            <Card key={post.id} {...post} />
+            <Project key={post.id} {...post} />
           ))}
-        </CardList>
+        </ProjectList>
       </Container>
     </Layout>
   )

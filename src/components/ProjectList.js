@@ -17,7 +17,7 @@ const Message = styled.span`
     font-size: 2em;
   }
 `
-const CardList = props => {
+const ProjectList = props => {
   return (
     <List>
       <Message>Hi👋 I'm Akihiro Tamura, Ix Designer based in Tokyo. I designed&nbsp;{props.children}etc...</Message>
@@ -25,4 +25,4 @@ const CardList = props => {
   )
 }
 
-export default CardList
+export default ProjectList
