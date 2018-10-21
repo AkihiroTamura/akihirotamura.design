@@ -3,7 +3,7 @@ const theme = {
     base: '#000', // Black
     secondary: '#e9e9e9', // Medium Gray
     tertiary: '#f3f3f3', // Light Gray
-    highlight: '#999', // Light Blue
+    highlight: '#b2b2b2', // Light Blue
   },
   sizes: {
     maxWidth: '1400px',

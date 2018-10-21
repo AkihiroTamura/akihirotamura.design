@@ -38,17 +38,18 @@ const Cover = styled(posed.span(appear))`
 `
 
 const Title = styled(posed.span(slideUp))`
-  @media screen and (max-width: ${props => props.theme.responsive.medium}) {
+  &:hover {
+    @media screen and (min-width: ${props => props.theme.responsive.medium}) {
+      color: #f8f8f8;
+    }
   }
 `
 
+const Slash = styled.span`
+  color: #000;
+`
+
 const PostLink = styled(Link)`
-  &:hover span {
-    @media screen and (min-width: ${props => props.theme.responsive.medium}) {
-      color: #f8f8f8;
-      opacity: 1;
-    }
-  }
   &:hover .gatsby-image-wrapper {
     @media screen and (min-width: ${props => props.theme.responsive.medium}) {
       @supports (object-fit: cover) {
@@ -79,7 +80,7 @@ const Card = ({ slug, heroImage, title, url, tags, body, ...props }) => {
         <Cover>
           <Img fluid={heroImage.fluid} />
         </Cover>
-        <Title>{title}&thinsp;/&thinsp;</Title>
+        <Title>{title}</Title><Slash>&thinsp;/&thinsp;</Slash>
       </PostLink>
     </Post>
   )

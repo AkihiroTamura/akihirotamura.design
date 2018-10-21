@@ -20,7 +20,7 @@ const Message = styled.span`
 const CardList = props => {
   return (
     <List>
-      <Message>Hi👋 I'm Akihiro Tamura, Ix Designer from Tokyo, Japan. I designed&nbsp;{props.children}etc...</Message>
+      <Message>Hi👋 I'm Akihiro Tamura, Ix Designer based in Tokyo. I designed&nbsp;{props.children}etc...</Message>
     </List>
   )
 }
