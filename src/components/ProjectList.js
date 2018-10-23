@@ -14,7 +14,7 @@ const Message = styled.span`
   font-weight: 600;
   line-height: 1.1em;
   @media screen and (max-width: ${props => props.theme.responsive.medium}) {
-    line-height: 1.2em;
+    line-height: 1.22em;
     font-size: 2em;
   }
 `

@@ -28,7 +28,7 @@ const GlobalStyle = createGlobalStyle`
 
   /* Added to Fix Footer to bottom of viewport */
   html, body {
-    height: 100%;
+    height: calc(100vh -88px);
   }
   .siteRoot {
     height: 100vh;

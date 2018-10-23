@@ -36,7 +36,7 @@ const Body = styled.div`
   }
 
   p {
-    font-size: .95em;
+    font-size: .9em;
     line-height: 1.8em;
     margin: 0 0 2em 0;
   }
