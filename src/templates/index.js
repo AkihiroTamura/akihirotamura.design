@@ -1,5 +1,6 @@
 import React from 'react'
 import { graphql } from 'gatsby'
+import Div100vh from 'react-div-100vh';
 import Layout from '../components/Layout'
 import ProjectList from '../components/ProjectList'
 import Project from '../components/Project'
@@ -15,16 +16,15 @@ const Index = ({ data }) => {
   return (
     <Layout>
       <SEO />
-      <Helmet>
-        <title>{`${config.siteTitle}`}</title>
-      </Helmet>
-      <Container>
-        <ProjectList>
-          {posts.map(({ node: post }) => (
-            <Project key={post.id} {...post} />
-          ))}
-        </ProjectList>
-      </Container>
+      <Div100vh>
+        <Container>
+          <ProjectList>
+            {posts.map(({ node: post }) => (
+              <Project key={post.id} {...post} />
+            ))}
+          </ProjectList>
+        </Container>
+      </Div100vh>
     </Layout>
   )
 }
