@@ -28,10 +28,10 @@ const GlobalStyle = createGlobalStyle`
 
   /* Added to Fix Footer to bottom of viewport */
   html, body {
-    height: calc(100vh -88px);
+    height: 100%;
   }
   .siteRoot {
-    height: 100vh;
+    height: 100%;
     display: flex;
     flex-direction: column;
   }
