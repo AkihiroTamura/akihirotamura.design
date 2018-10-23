@@ -31,7 +31,7 @@ const GlobalStyle = createGlobalStyle`
     height: 100%;
   }
   .siteRoot {
-    height: 100vh;
+    height: 100%;
     overflow: hidden;
     display: flex;
     flex-direction: column;
