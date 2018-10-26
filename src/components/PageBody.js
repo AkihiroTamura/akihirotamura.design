@@ -106,10 +106,6 @@ const Body = styled.div`
       background: inherit !important;
     }
   }
-
-  .gatsby-resp-image-wrapper {
-    max-width: ${props => props.theme.sizes.maxWidth};
-  }
 `
 
 const PageBody = props => {

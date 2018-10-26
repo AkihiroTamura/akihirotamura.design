@@ -50,7 +50,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-images-contentful`,
             options: {
-              maxWidth: 650,
+              max-width: ${props => props.theme.sizes.maxWidth},
               backgroundColor: 'white',
               linkImagesToOriginal: false,
             },
