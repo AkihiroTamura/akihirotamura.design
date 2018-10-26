@@ -22,13 +22,13 @@ const BgImg = styled(Img)`
 `
 
 const Title = styled.h1`
-  font-size: 1.6em;
+  font-size: 1.8em;
   text-transform: capitalize;
   font-weight: 400;
   text-align: center;
   margin: 2em 0 1em 0;
   @media screen and (max-width: ${props => props.theme.responsive.medium}) {
-    font-size: 1.4em;
+    font-size: 1.65em;
     margin: 1.5em 0 0.5em 0;
   }
   color: ${props => props.theme.colors.base};
