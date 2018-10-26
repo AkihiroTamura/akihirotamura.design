@@ -66,7 +66,7 @@ const Menu = () => {
         <ul>
           <li>
             <Link to="/" style={activeLinkStyle}>
-              <p className="name">AKIHIRO TAMURA</p><span className="job">Ix Designer</span>
+              <p className="name">AKIHIRO TAMURA</p><span className="job">UI Designer</span>
             </Link>
           </li>
           <li>

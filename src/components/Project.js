@@ -81,7 +81,7 @@ const Project = ({ slug, heroImage, title, url, tags, body, ...props }) => {
         <Cover>
           <Img fluid={heroImage.fluid} />
         </Cover>
-        <Title>{title}</Title><Slash>&thinsp;/&thinsp;</Slash>
+        <Title>{title}</Title><Slash>&thinsp;/</Slash>
       </PostLink>
     </Post>
   )

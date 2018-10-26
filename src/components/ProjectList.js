@@ -21,7 +21,7 @@ const Message = styled.span`
 const ProjectList = props => {
   return (
     <List>
-      <Message>Hi. I'm Akihiro Tamura, Ix Designer based in Tokyo. I designed&nbsp;{props.children}etc...</Message>
+      <Message>Hi. I'm Akihiro Tamura, UI Designer based in Tokyo. I designed&nbsp;{props.children}etc...</Message>
     </List>
   )
 }

@@ -1,9 +1,9 @@
 module.exports = {
   siteTitle: 'AKIHIRO TAMURA',
-  siteTitleAlt: 'Ixデザイナー田村章裕のポートフォリオサイト', // This allows an alternative site title for SEO schema.
+  siteTitleAlt: 'UIデザイナー田村章裕のポートフォリオサイト', // This allows an alternative site title for SEO schema.
   publisher: 'Akihiro Tamura', // Organization name used for SEO schema
   siteDescription:
-    'Ixデザイナー田村章裕のポートフォリオサイトです。',
+    'UIデザイナー田村章裕のポートフォリオサイトです。',
   siteUrl: 'https://akihirotamura.design', // Site domain. Do not include a trailing slash! If you wish to use a path prefix you can read more about that here: https://www.gatsbyjs.org/docs/path-prefix/
   postsPerHomePage: 3, // Number of posts shown on the 1st page of of the index.js template (home page)
   postsPerPage: 6, // Number of posts shown on paginated pages
