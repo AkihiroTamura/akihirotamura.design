@@ -32,7 +32,7 @@ const Body = styled.div`
   }
 
   span {
-    font-size: .95em;
+    font-size: .9em;
     latter-spacing: .1em;
     color: ${props => props.theme.colors.secondary};
   }
@@ -64,7 +64,7 @@ const Body = styled.div`
   ul,
   dl,
   ol {
-    font-size: .95em;
+    font-size: .9em;
     margin: 3em 0;
   }
 
@@ -73,7 +73,7 @@ const Body = styled.div`
       list-style: none;
       list-style-position: inside;
       color: ${props => props.theme.colors.base};
-      margin: 0.5em 0 2em;
+      margin-bottom: 1em;
     }
   }
 
@@ -82,7 +82,7 @@ const Body = styled.div`
       list-style: none;
       list-style-position: inside;
       color: ${props => props.theme.colors.secondary};
-      }
+      margin-bottom: 0.5em;
     }
   }
 
