@@ -21,9 +21,11 @@ const Body = styled.div`
   h1 {
     letter-spacing: .1em;
     font-size: 1.5em;
+    margin: 3em 0 1.5em;
   }
   h2 {
     font-size: 1.25em;
+    margin: 3em 0 1.5em;
   }
   h3 {
     font-size: 1em;
@@ -104,6 +106,10 @@ const Body = styled.div`
     span {
       background: inherit !important;
     }
+  }
+
+  img {
+    max-width: ${props => props.theme.sizes.maxWidth};
   }
 `
 
