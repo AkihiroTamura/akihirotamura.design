@@ -82,7 +82,6 @@ const Body = styled.div`
       list-style: none;
       list-style-position: inside;
       color: ${props => props.theme.colors.secondary};
-      width: 150px;
       }
     }
   }
