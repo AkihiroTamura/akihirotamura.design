@@ -107,7 +107,7 @@ const Body = styled.div`
     }
   }
 
-  img {
+  .gatsby-resp-image-wrapper {
     max-width: ${props => props.theme.sizes.maxWidth};
   }
 `
