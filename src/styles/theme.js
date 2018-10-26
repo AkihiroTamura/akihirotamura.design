@@ -6,7 +6,7 @@ const theme = {
     highlight: '#b2b2b2', // Light Blue
   },
   sizes: {
-    maxWidth: '1400px',
+    maxWidth: '1000px',
     maxWidthCentered: '500px',
   },
   responsive: {
