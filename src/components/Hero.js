@@ -1,6 +1,8 @@
 import React from 'react'
 import Img from 'gatsby-image'
 import styled from 'styled-components'
+import posed from 'react-pose'
+import { slideUp } from '../styles/poses'
 
 const Wrapper = styled.section`
   position: relative;
@@ -21,7 +23,7 @@ const BgImg = styled(Img)`
   }
 `
 
-const Title = styled.h1`
+const Title = styled(posed.h1(slideUp))`
   font-size: 1.8em;
   text-transform: capitalize;
   font-weight: 400;
