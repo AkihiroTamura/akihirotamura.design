@@ -4,10 +4,10 @@ import { Link } from 'gatsby'
 
 const List = styled.ul`
   width: 100%;
-  margin: 0 auto 2.5em;
+  margin: 0 auto 4em;
   text-align: center;
   @media screen and (max-width: ${props => props.theme.responsive.medium}) {
-    margin-bottom: 1.5em;
+    margin-bottom: 3em;
   }
 `
 
