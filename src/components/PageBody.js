@@ -4,10 +4,6 @@ import styled from 'styled-components'
 const Body = styled.div`
   margin: 0 auto;
   max-width: ${props => props.theme.sizes.maxWidth};
-  padding: 0 4em;
-  @media screen and (max-width: ${props => props.theme.responsive.medium}) {
-    padding: 0em;
-  }
 
   h1,
   h2,

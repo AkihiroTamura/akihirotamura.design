@@ -1,9 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
 
-const List = styled.ul`
-  display: flex;
-  flex-flow: row wrap;
+const List = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 3em;
+  @media screen and (max-width: ${props => props.theme.responsive.medium}) {
+    grid-template-columns: 1fr;
+    grid-gap: 2em;
+  }
 `
 const Message = styled.span`
   color: ${props => props.theme.colors.secondary};
@@ -18,10 +23,11 @@ const Message = styled.span`
     font-size: 2em;
   }
 `
+
 const ProjectList = props => {
   return (
     <List>
-      <Message>Hi. I'm Akihiro Tamura, UI Designer based in Tokyo. I designed&nbsp;{props.children}etc...</Message>
+      {props.children}
     </List>
   )
 }

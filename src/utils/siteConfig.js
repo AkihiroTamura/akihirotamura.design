@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: 'AKIHIRO TAMURA',
+  siteTitle: 'Akihiro Tamura',
   siteTitleAlt: 'UIデザイナー田村章裕のポートフォリオサイト', // This allows an alternative site title for SEO schema.
   publisher: 'Akihiro Tamura', // Organization name used for SEO schema
   siteDescription:

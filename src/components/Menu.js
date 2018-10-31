@@ -4,7 +4,9 @@ import styled from 'styled-components'
 
 const Header = styled.header`
   width: 100%;
-  padding: 3em 4em;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 6em 0;
   @media screen and (max-width: ${props => props.theme.responsive.medium}) {
     padding: 3em 1em;
   }

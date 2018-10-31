@@ -4,7 +4,9 @@ import {Twitter, Facebook, Dribbble} from 'styled-icons/fa-brands'
 
 const Wrapper = styled.footer`
   width: 100%;
-  padding: 3em 4em;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 6em 0;
   @media screen and (max-width: ${props => props.theme.responsive.medium}) {
     padding: 3em 1em;
   }
@@ -41,6 +43,7 @@ const Container = styled.div`
 const Copy = styled.small`
   color: ${props => props.theme.colors.secondary};
   font-size: .65em;
+  font-weight: 400;
   letter-spacing: .1em;
 `
 

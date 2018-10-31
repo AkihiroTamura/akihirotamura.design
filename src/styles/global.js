@@ -91,14 +91,16 @@ const GlobalStyle = createGlobalStyle`
     font-variant-ligatures: none;
     text-rendering: optimizeLegibility;
     text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
-    font-weight: 300;
-    font-family: -apple-system,BlinkMacSystemFont,Helvetica Neue,Helvetica,Arial,Verdana,"Noto Sans Japanese","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+    font-weight: 400;
+    color: #333;
+    font-family: Helvetica Neue,Helvetica,-apple-system,BlinkMacSystemFont,Arial,Verdana,"Noto Sans Japanese","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
   }
 
   img {
     display: block;
   	width: 100%;
   	height: auto;
+    vertical-align: baseline;
   }
 `
 export default GlobalStyle

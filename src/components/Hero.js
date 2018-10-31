@@ -5,15 +5,9 @@ import posed from 'react-pose'
 import { slideUp } from '../styles/poses'
 
 const Wrapper = styled.section`
-  position: relative;
   min-height: 300px;
 `
-const BgImg = styled(Img)`
-  position: absolute;
-  margin: 0 auto;
-  z-index: -1;
-  min-height: 300px;
-  height: auto;
+const TopImg = styled(Img)`
   @media (min-width: ${props => props.theme.responsive.medium}) {
     height: ${props => props.height || 'auto'};
   }
@@ -24,13 +18,13 @@ const BgImg = styled(Img)`
 `
 
 const Title = styled(posed.h1(slideUp))`
-  font-size: 1.8em;
+  font-size: 1.2em;
   text-transform: capitalize;
   font-weight: 400;
   text-align: center;
   margin: 2em 0 1em 0;
   @media screen and (max-width: ${props => props.theme.responsive.medium}) {
-    font-size: 1.65em;
+    font-size: 1.45em;
     margin: 1.5em 0 0.5em 0;
   }
   color: ${props => props.theme.colors.base};
@@ -38,7 +32,7 @@ const Title = styled(posed.h1(slideUp))`
 
 const Hero = props => (
   <Wrapper>
-    <BgImg
+    <TopImg
       height={props.height}
       fluid={props.image.fluid}
       backgroundColor={'#eeeeee'}
