@@ -15,7 +15,6 @@ const Post = styled(posed.div(staggerChildren))`
 `
 
 const Cover = styled(posed.div(appear))`
-  text-align: center;
   .gatsby-image-wrapper {
     width: 100%;
     vertical-align: bottom;
@@ -28,8 +27,8 @@ const Cover = styled(posed.div(appear))`
 `
 
 const Title = styled(posed.p(slideUp))`
-  padding: 16px;
-  font-size: .9em;
+  padding-top: 1em;
+  font-size: .85em;
   font-weight: 400;
   color: #666;
   letter-spacing: 0.04em;
