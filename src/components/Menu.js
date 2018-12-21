@@ -45,9 +45,8 @@ const Nav = styled.nav`
 
   .name {
     font-weight: 400;
-    font-size: .9em;
     @media screen and (max-width: ${props => props.theme.responsive.medium}) {
-      font-size: .8em;
+      font-size: .9em;
     }
   }
 `
