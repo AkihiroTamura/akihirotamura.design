@@ -51,7 +51,6 @@ const TagTemplate = ({ data, pageContext }) => {
           ))}
         </ProjectList>
       </Container>
-      <Pagination context={pageContext} />
     </Layout>
   )
 }
