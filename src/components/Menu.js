@@ -4,11 +4,10 @@ import styled from 'styled-components'
 
 const Header = styled.header`
   width: 100%;
-  max-width: 1200px;
   margin: 0 auto;
-  padding: 6em 0;
+  padding: 2em;
   @media screen and (max-width: ${props => props.theme.responsive.medium}) {
-    padding: 3em 1em;
+    padding: 1.5em 1em;
   }
 `
 const Nav = styled.nav`
@@ -19,8 +18,7 @@ const Nav = styled.nav`
   ul {
     display: flex;
     justify-content: space-between;
-    font-size: .7em;
-    letter-spacing: .1em;
+    font-size: 1em;
   }
 
   li {
@@ -38,22 +36,19 @@ const Nav = styled.nav`
 
   a {
     text-decoration: none;
-    color: ${props => props.theme.colors.secondary};
-    font-weight: 400;
+    color: ${props => props.theme.colors.base};
     transition: all 0.2s;
     &:hover {
-      color: ${props => props.theme.colors.base};
+      color: ${props => props.theme.colors.secondary};
     }
   }
 
   .name {
-    color: ${props => props.theme.colors.base};
-    font-size: 1.2em;
     font-weight: 400;
-  }
-
-  .job {
-    color: ${props => props.theme.colors.secondary};
+    font-size: .9em;
+    @media screen and (max-width: ${props => props.theme.responsive.medium}) {
+      font-size: .8em;
+    }
   }
 `
 
@@ -68,17 +63,17 @@ const Menu = () => {
         <ul>
           <li>
             <Link to="/" style={activeLinkStyle}>
-              <p className="name">AKIHIRO TAMURA</p><span className="job">UI Designer</span>
+              <p className="name">¯\_(ツ)_/¯</p>
             </Link>
           </li>
           <li>
             <Link to="/about/" activestyle={activeLinkStyle}>
-              ABOUT
+              About
             </Link>
           </li>
           <li>
             <a href="https://m.me/akihiro.tamura.75436" activestyle={activeLinkStyle}>
-              CONTACT
+              Contact
             </a>
           </li>
         </ul>

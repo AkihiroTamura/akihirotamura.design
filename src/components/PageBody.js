@@ -2,8 +2,10 @@ import React from 'react'
 import styled from 'styled-components'
 
 const Body = styled.div`
-  margin: 0 auto;
-  max-width: ${props => props.theme.sizes.maxWidth};
+  width: 55%;
+  @media screen and (max-width: ${props => props.theme.responsive.medium}) {
+    width: 100%;
+  }
 
   h1,
   h2,
@@ -28,15 +30,15 @@ const Body = styled.div`
   }
 
   span {
-    font-size: .9em;
+    font-size: 1em;
     latter-spacing: .1em;
     color: ${props => props.theme.colors.secondary};
   }
 
   p {
-    font-size: .9em;
-    line-height: 1.8em;
-    margin: 0 0 2em 0;
+    font-size: 1em;
+    line-height: 1.5em;
+    margin-bottom: 1em;
   }
 
   a {

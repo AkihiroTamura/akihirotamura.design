@@ -5,7 +5,6 @@ import ProjectList from '../components/ProjectList'
 import Project from '../components/Project'
 import Helmet from 'react-helmet'
 import Container from '../components/Container'
-import Pagination from '../components/Pagination'
 import SEO from '../components/SEO'
 import config from '../utils/siteConfig'
 

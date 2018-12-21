@@ -6,7 +6,6 @@ import config from '../utils/siteConfig'
 import Layout from '../components/Layout'
 import Project from '../components/Project'
 import ProjectList from '../components/ProjectList'
-import Pagination from '../components/Pagination'
 import Container from '../components/Container'
 
 const TagTemplate = ({ data, pageContext }) => {

@@ -5,7 +5,7 @@ import Img from 'gatsby-image'
 import posed from 'react-pose'
 import { appear, slideUp, staggerChildren } from '../styles/poses'
 
-const Post = styled(posed.div(staggerChildren))`
+const Post = styled.div`
   width: 100%;
   height: 100%;
   a {
@@ -14,24 +14,17 @@ const Post = styled(posed.div(staggerChildren))`
   }
 `
 
-const Cover = styled(posed.div(appear))`
+const Cover = styled.div`
   .gatsby-image-wrapper {
     width: 100%;
+    height: 40vh;
     vertical-align: bottom;
-    transition: all 0.3s ease;
-    &:hover {
-      transform: scale(1.03);
-      box-shadow: 0 0 5px 5px rgba(66,66,66,0.03);
-    }
   }
 `
 
-const Title = styled(posed.p(slideUp))`
-  padding-top: 1em;
-  font-size: .85em;
-  font-weight: 400;
-  color: #666;
-  letter-spacing: 0.04em;
+const Title = styled.p`
+  padding-top: .85em;
+  font-size: 1em;
 `
 
 const PostLink = styled(Link)`

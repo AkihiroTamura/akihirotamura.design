@@ -87,13 +87,13 @@ const GlobalStyle = createGlobalStyle`
 
   body {
     background: white;
-    font-size: 100%;
+    font-size: 15px;
     font-variant-ligatures: none;
     text-rendering: optimizeLegibility;
     text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
     font-weight: 400;
-    color: #333;
-    font-family: Helvetica Neue,Helvetica,-apple-system,BlinkMacSystemFont,Arial,Verdana,"Noto Sans Japanese","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
+    color: #000;
+    font-family: -apple-system,BlinkMacSystemFont,Arial,Verdana,"Noto Sans Japanese","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
   }
 
   img {
