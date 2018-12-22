@@ -17,7 +17,6 @@ const PageTemplate = ({ data }) => {
         <title>{`${title} - ${config.siteTitle}`}</title>
       </Helmet>
       <SEO pagePath={slug} postNode={postNode} pageSEO />
-
       <Container>
         <PageBody body={body} />
       </Container>
