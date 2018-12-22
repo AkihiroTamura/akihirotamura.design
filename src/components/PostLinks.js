@@ -11,9 +11,9 @@ const Wrapper = styled.div`
 `
 
 const Box = styled.div`
-  width: 100%;
+  width: 55%;
   @media screen and (max-width: ${props => props.theme.responsive.medium}) {
-    width: 55%;
+    width: 100%;
   }
   a {
     font-size: 1em;
