@@ -44,7 +44,7 @@ const Nav = styled.nav`
   }
 
   .name {
-    font-weight: 600;
+    font-weight: 500;
   }
 `
 
