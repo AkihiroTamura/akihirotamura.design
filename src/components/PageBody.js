@@ -42,11 +42,7 @@ const Body = styled.div`
   }
 
   a {
-    transition: 0.2s;
-    color: ${props => props.theme.colors.base};
-    &:hover {
-      color: ${props => props.theme.colors.highlight};
-    }
+    color: #4A90E2;
   }
 
   del {
@@ -62,8 +58,7 @@ const Body = styled.div`
   ul,
   dl,
   ol {
-    font-size: .9em;
-    margin: 3em 0;
+    margin: 2em 0;
   }
 
   dl {
@@ -80,7 +75,7 @@ const Body = styled.div`
       list-style: none;
       list-style-position: inside;
       color: ${props => props.theme.colors.secondary};
-      margin-bottom: 0.5em;
+      margin-bottom: 0.25em;
     }
   }
 
