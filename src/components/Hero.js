@@ -2,7 +2,6 @@ import React from 'react'
 import Img from 'gatsby-image'
 import styled from 'styled-components'
 import posed from 'react-pose'
-import { slideUp } from '../styles/poses'
 
 const Wrapper = styled.section`
 `
@@ -17,7 +16,7 @@ const TopImg = styled(Img)`
   }
 `
 
-const Title = styled(posed.h1(slideUp))`
+const Title = styled.h1`
   margin-bottom: 1em;
 `
 

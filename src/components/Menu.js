@@ -62,16 +62,6 @@ const Menu = () => {
               <p className="name">¯\_(ツ)_/¯</p>
             </Link>
           </li>
-          <li>
-            <Link to="/about/" activestyle={activeLinkStyle}>
-              About
-            </Link>
-          </li>
-          <li>
-            <a href="https://m.me/akihiro.tamura.75436" activestyle={activeLinkStyle}>
-              Contact
-            </a>
-          </li>
         </ul>
       </Nav>
     </Header>

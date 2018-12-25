@@ -3,7 +3,6 @@ import styled from 'styled-components'
 import { Link } from 'gatsby'
 import Img from 'gatsby-image'
 import posed from 'react-pose'
-import { appear, slideUp, staggerChildren } from '../styles/poses'
 
 const Post = styled.div`
   width: 100%;

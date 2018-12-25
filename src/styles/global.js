@@ -83,6 +83,7 @@ const GlobalStyle = createGlobalStyle`
 
   a {
     text-decoration: none;
+    color: #4A90E2;
   }
 
   body {
@@ -101,6 +102,10 @@ const GlobalStyle = createGlobalStyle`
   	width: 100%;
   	height: auto;
     vertical-align: baseline;
+  }
+
+  .about {
+    margin-bottom: 1.5em;
   }
 `
 export default GlobalStyle
