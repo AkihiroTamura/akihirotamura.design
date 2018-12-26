@@ -16,7 +16,6 @@ const Post = styled.div`
 const Cover = styled.div`
   .gatsby-image-wrapper {
     width: 100%;
-    height: 40vh;
     vertical-align: bottom;
   }
 `
