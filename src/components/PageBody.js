@@ -37,6 +37,7 @@ const Body = styled.div`
 
   p {
     font-size: 1em;
+    line-height: 1.4em;
     margin-bottom: 1em;
   }
 
