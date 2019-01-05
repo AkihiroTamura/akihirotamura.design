@@ -106,6 +106,7 @@ const GlobalStyle = createGlobalStyle`
 
   .about {
     margin-bottom: 1.5em;
+    line-height: 1.5em;
   }
 `
 export default GlobalStyle
