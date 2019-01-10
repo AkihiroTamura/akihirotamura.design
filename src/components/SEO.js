@@ -125,7 +125,7 @@ class SEO extends Component {
 
         {/* OpenGraph tags */}
         <meta property="og:title" content={title} />
-        {postSEO ? <meta property="og:type" content="article" /> : null}
+        <meta property="og:type" content="website" />
 
         <meta property="og:url" content={pageUrl} />
         <meta property="og:image" content={image} />
@@ -142,6 +142,9 @@ class SEO extends Component {
         <meta name="twitter:title" content={title} />
         <meta name="twitter:image" content={image} />
         <meta name="twitter:description" content={description} />
+
+        {/* Facebook tags */}
+        <meta name="fb:app_id" content="393750898048121" />
       </Helmet>
     )
   }
