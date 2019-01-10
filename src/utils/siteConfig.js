@@ -1,6 +1,6 @@
 module.exports = {
-  siteTitle: 'shrug.design - Product Designer',
-  siteTitleAlt: 'shrug.design - Product Designer', // This allows an alternative site title for SEO schema.
+  siteTitle: 'shrug.design',
+  siteTitleAlt: 'shrug.design', // This allows an alternative site title for SEO schema.
   publisher: 'Akihiro Tamura', // Organization name used for SEO schema
   siteDescription:
     'Akihiro Tamura, Product Designer based in Tokyo, Japan.',
