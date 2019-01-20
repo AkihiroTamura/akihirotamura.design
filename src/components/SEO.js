@@ -145,6 +145,9 @@ class SEO extends Component {
 
         {/* Facebook tags */}
         <meta name="fb:app_id" content="393750898048121" />
+
+        {/* Google */}
+        <meta name="google-site-verification" content="wDkxWmmODtVg0B88yfaatCODBxSiHMxwYfs-mJjShUU" />
       </Helmet>
     )
   }
