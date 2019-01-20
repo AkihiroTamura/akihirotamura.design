@@ -4,7 +4,7 @@ module.exports = {
   publisher: 'Akihiro Tamura', // Organization name used for SEO schema
   siteDescription:
     'Akihiro Tamura, Product Designer based in Tokyo, Japan.',
-  siteUrl: 'https://akihirotamura.design', // Site domain. Do not include a trailing slash! If you wish to use a path prefix you can read more about that here: https://www.gatsbyjs.org/docs/path-prefix/
+  siteUrl: 'https://shrug.design', // Site domain. Do not include a trailing slash! If you wish to use a path prefix you can read more about that here: https://www.gatsbyjs.org/docs/path-prefix/
   postsPerHomePage: 3, // Number of posts shown on the 1st page of of the index.js template (home page)
   postsPerPage: 6, // Number of posts shown on paginated pages
   author: 'Akihiro Tamura', // Author for RSS author segment and SEO schema
