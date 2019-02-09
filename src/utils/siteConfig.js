@@ -1,6 +1,6 @@
 module.exports = {
-  siteTitle: 'shrug.design',
-  siteTitleAlt: 'shrug.design', // This allows an alternative site title for SEO schema.
+  siteTitle: 'Akihiro Tamura',
+  siteTitleAlt: 'Akihiro Tamura', // This allows an alternative site title for SEO schema.
   publisher: 'Akihiro Tamura', // Organization name used for SEO schema
   siteDescription:
     'Akihiro Tamura, Product Designer based in Tokyo, Japan.',
@@ -10,7 +10,7 @@ module.exports = {
   author: 'Akihiro Tamura', // Author for RSS author segment and SEO schema
   authorUrl: 'https://twitter.com/wowr_t', // URL used for author and publisher schema, can be a social profile or other personal site
   userTwitter: '@twitter', // Change for Twitter Cards
-  shortTitle: '¯\_(ツ)_/¯', // Used for App manifest e.g. Mobile Home Screen
+  shortTitle: 'Akihiro Tamura', // Used for App manifest e.g. Mobile Home Screen
   shareImage: '/logos/share.jpg', // Open Graph Default Share Image. 1200x1200 is recommended
   shareImageWidth: 900, // Change to the width of your default share image
   shareImageHeight: 600, // Change to the height of your default share image
