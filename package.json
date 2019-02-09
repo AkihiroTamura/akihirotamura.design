@@ -1,7 +1,7 @@
 {
-  "name": "akihirotamura-portfolio",
+  "name": "shrug.design",
   "version": "1.0.0",
-  "repository": "https://github.com/akihirotamura/akihirotamura-portfolio",
+  "repository": "https://github.com/akihirotamura/shrug.design",
   "author": "Akihiro Tamura <akihiro.tamura10@gmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "^1.8.0",
