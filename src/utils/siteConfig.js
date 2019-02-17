@@ -12,6 +12,7 @@ module.exports = {
   userTwitter: '@twitter', // Change for Twitter Cards
   shortTitle: 'Akihiro Tamura', // Used for App manifest e.g. Mobile Home Screen
   shareImage: '/logos/share.jpg', // Open Graph Default Share Image. 1200x1200 is recommended
+  image: '/logos/logo-512.png',
   shareImageWidth: 900, // Change to the width of your default share image
   shareImageHeight: 600, // Change to the height of your default share image
   siteLogo: '/logos/logo-512.png', // Logo used for SEO, RSS, and App manifest

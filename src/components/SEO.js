@@ -148,6 +148,7 @@ class SEO extends Component {
 
         {/* Google */}
         <meta name="google-site-verification" content="wDkxWmmODtVg0B88yfaatCODBxSiHMxwYfs-mJjShUU" />
+        <meta name="thumbnail" content={image} />
       </Helmet>
     )
   }
