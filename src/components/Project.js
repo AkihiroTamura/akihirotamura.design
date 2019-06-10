@@ -21,8 +21,7 @@ const Cover = styled.div`
 `
 
 const Title = styled.p`
-  padding-top: .85em;
-  font-size: 1em;
+  padding-top: 1em;
 `
 
 const PostLink = styled(Link)`

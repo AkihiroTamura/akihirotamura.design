@@ -6,7 +6,7 @@ import posed from 'react-pose'
 const Wrapper = styled.section`
 `
 const TopImg = styled(Img)`
-  margin-bottom: 1em;
+  margin-bottom: 1.6667em;
   @media (min-width: ${props => props.theme.responsive.medium}) {
     width: 55%;
   }
@@ -17,7 +17,7 @@ const TopImg = styled(Img)`
 `
 
 const Title = styled.h1`
-  margin-bottom: 1em;
+  margin-bottom: 1.6667em;
 `
 
 const Hero = props => (

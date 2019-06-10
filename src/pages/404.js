@@ -7,7 +7,7 @@ import Layout from '../components/Layout'
 
 const Text = styled.p`
   text-align: center;
-  line-height: 1.6;
+  line-height: 1.725em;
   a {
     color: #121212;
   }

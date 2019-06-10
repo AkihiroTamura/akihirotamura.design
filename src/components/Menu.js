@@ -5,9 +5,9 @@ import styled from 'styled-components'
 const Header = styled.header`
   width: 100%;
   margin: 0 auto;
-  padding: 2em;
+  padding: 1.25em 2.5em;
   @media screen and (max-width: ${props => props.theme.responsive.medium}) {
-    padding: 1.5em 1em;
+    padding: 1.25em 0.75em;
   }
 `
 const Nav = styled.nav`
@@ -18,7 +18,7 @@ const Nav = styled.nav`
   ul {
     display: flex;
     justify-content: space-between;
-    font-size: 1em;
+    font-size: 0.75em;
   }
 
   li {

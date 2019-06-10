@@ -18,27 +18,26 @@ const Body = styled.div`
 
   h1 {
     letter-spacing: .1em;
-    font-size: 1.5em;
+    font-size: 0.75em;
     margin: 3em 0 1.5em;
   }
   h2 {
-    font-size: 1.25em;
-    margin: 3em 0 1.5em;
+    font-size: 0.75em;
+    margin: 2.5em 0 1.25em;
   }
   h3 {
-    font-size: 1em;
+    font-size: 0.75em;
   }
 
   span {
-    font-size: 1em;
+    font-size: 0.75em;
     latter-spacing: .1em;
     color: ${props => props.theme.colors.secondary};
   }
 
   p {
-    font-size: 1em;
-    line-height: 1.4em;
-    margin-bottom: 1em;
+    line-height: 1.725em;
+    margin-bottom: 1.6667em;
   }
 
   a {

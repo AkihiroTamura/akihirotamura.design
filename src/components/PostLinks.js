@@ -4,9 +4,9 @@ import { Link } from 'gatsby'
 
 const Wrapper = styled.div`
   width: 100%;
-  padding: 2em;
+  padding: 1.25em 2.75em;
   @media screen and (max-width: ${props => props.theme.responsive.medium}) {
-    padding: 1em;
+    padding: 1.25em;
   }
 `
 
@@ -16,7 +16,7 @@ const Box = styled.div`
     width: 100%;
   }
   a {
-    font-size: 1em;
+    font-size: 0.75em;
     color: #000;
     text-decoration: none;
     transition: 0.2s;

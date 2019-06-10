@@ -84,11 +84,12 @@ const GlobalStyle = createGlobalStyle`
   a {
     text-decoration: none;
     color: #4A90E2;
+    line-height: 1.725em;
   }
 
   body {
     background: white;
-    font-size: 15px;
+    font-size: 20px;
     font-variant-ligatures: none;
     text-rendering: optimizeLegibility;
     text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
@@ -105,8 +106,7 @@ const GlobalStyle = createGlobalStyle`
   }
 
   .about {
-    margin-bottom: 1.5em;
-    line-height: 1.5em;
+    margin-bottom: 3.33335em;
   }
 `
 export default GlobalStyle
