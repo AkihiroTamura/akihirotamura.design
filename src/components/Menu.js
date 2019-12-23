@@ -1,6 +1,8 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import styled from 'styled-components'
+import Logo from "!svg-react-loader!../images/logo.svg?name=ShrugLogo";
+
 
 const Header = styled.header`
   width: 100%;
@@ -46,6 +48,13 @@ const Nav = styled.nav`
   .name {
     font-weight: 400;
   }
+
+  .logo {
+    width: 72px;
+    margin: 0;
+    padding: 0;
+    vertical-align: bottom;
+  }
 `
 
 const activeLinkStyle = {
@@ -59,7 +68,7 @@ const Menu = () => {
         <ul>
           <li>
             <Link to="/" style={activeLinkStyle}>
-              <p className="name">¯\_(ツ)_/¯</p>
+              <Logo class="logo"/>
             </Link>
           </li>
         </ul>

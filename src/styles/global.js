@@ -94,7 +94,7 @@ const GlobalStyle = createGlobalStyle`
     text-rendering: optimizeLegibility;
     text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
     font-weight: 400;
-    color: #000;
+    color: black;
     font-family: -apple-system,BlinkMacSystemFont,Arial,Verdana,"Noto Sans Japanese","ヒラギノ角ゴ Pro W3","Hiragino Kaku Gothic Pro","メイリオ",Meiryo,Osaka,"ＭＳ Ｐゴシック","MS PGothic",sans-serif;
   }
 
